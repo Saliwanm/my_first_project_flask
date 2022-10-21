@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<h3>Page about me</h3>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Add newspaper</h1>
+    <form method="post">
+        <input type="text" name="title" id="title" class="from-control"><br>
+        <textarea name="intro" id="intro" class="form-control"></textarea><br>
+        <textarea name="text" id="text" class="form-control"></textarea><br>
+        <input type="submit" class="btn-success" value="Send">
+    </form>
+</div>0
+{% endblock %}
